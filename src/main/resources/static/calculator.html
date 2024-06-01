@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class = "bod">
+    <header>
+
+    </header>
+    <h1>Grade Calculator</h1>
+    <main>
+        
+        <p class = "red"><strong>Activities</strong></p>
+        <p>Give grades to the numeric activities:</p>
+        <table id = "myTable">
+            <tr><th>Name</th><th>short name</th><th>weight</th><th>grade</th><th>percent</th></tr>
+            <tr>
+                
+                <td>activity 1</td>
+                <td>a1</td>
+                <td> 
+                    <form action = "" id=" weight1" >
+                        <input type = "number" name = "weight" id ="weight1" >
+                    </form>
+                </td> 
+                <td>
+                    <form action ="#">
+                        <input type = "number" name = "grade" id = "grade" class = "n" > / <form action = "#"><input type = "number" name= "divisor" id = "divisor" class = "n"  ></form>
+                    </form>
+                </td>
+                
+                <td>
+                    <p id= "percent1" name = "percentages"></p>
+                </td>
+            </tr>
+
+        </table>
+        <div>
+            <button id="addrow">
+                ADD ROW
+            </button>
+            
+        </div>
+        <div class = "red">
+            <strong>Result</strong>
+            <p id = "result"></p>
+        </div>
+        <div class = "whitespace">
+        <button onclick="showWeightedResult()" class = "mean" id=" WEIGHTED">
+            WEIGHTED
+        </button>
+        
+        <button onclick="showMeanResult()" class= "mean" id="MEAN">
+            MEAN
+        </button>
+        </div>
+    </main>
+    <div class = "whitespace"></div>
+    <footer>
+       
+    </footer>
+    </div>
+    <script src ="calculator.js"></script>
+</body>
+</html>

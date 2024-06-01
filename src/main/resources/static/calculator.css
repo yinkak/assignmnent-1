@@ -1,0 +1,86 @@
+
+body{
+    background-color: #a7192e;
+}
+.bod{
+    background-color: white;
+}
+header, footer{
+    border: 1px, solid, #3c3935;
+    padding: 10px;
+    background-color: #3c3935;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50px 20px 20px 20px;
+    
+}
+
+main{
+    padding: 20px;
+    border: 1px solid rgb(164, 199, 235);
+    background-color: #e9eef1;
+    margin: 20px;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.red{
+    color: #a7192e;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: #dddddd;
+    color: black;
+    width: 120px;
+    text-align: left;
+}
+
+.tabledata{
+    width : 25px;
+    width : 120px;
+}
+
+button{
+    margin: 10px;
+}
+
+#addrow{
+    margin-left: 0px;
+}
+.mean{
+    color: white;
+    background-color: #a3152a;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px solid #a7192e;
+    /*display: inline-block;*/
+    position: relative;
+    align-items:first baseline;
+    vertical-align: top;  
+    float:right;
+}
+
+.whitespace{
+    padding: 10px;
+}
+
+#grade, #weight1, #divisor
+{
+    width: 30px;
+}
+
+.n{
+    width: 30px;
+}
+
+
+
+
